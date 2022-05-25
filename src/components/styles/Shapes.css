@@ -1,0 +1,56 @@
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.triangle {
+  background-color: inherit;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+
+.triangle.blue {
+  background-image:
+    linear-gradient(to bottom right, transparent 50%, blue 0),
+    linear-gradient(to top right, blue 50%, transparent 0);
+}
+
+.triangle.red {
+  background-image:
+    linear-gradient(to bottom right, transparent 50%, red 0),
+    linear-gradient(to top right, red 50%, transparent 0);
+}
+
+.triangle.yellow {
+  background-image:
+    linear-gradient(to bottom right, transparent 50%, yellow 0),
+    linear-gradient(to top right, yellow 50%, transparent 0);
+}
+
+.triangle.green {
+  background-image:
+    linear-gradient(to bottom right, transparent 50%, green 0),
+    linear-gradient(to top right, green 50%, transparent 0);
+}
+
+.circle.blue, .square.blue {
+  background-color: blue;
+}
+
+.circle.red, .square.red {
+  background-color: red;
+}
+
+.circle.yellow, .square.yellow {
+  background-color: yellow;
+}
+
+.circle.green, .square.green {
+  background-color: green;
+}

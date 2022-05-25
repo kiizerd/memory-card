@@ -1,0 +1,13 @@
+.Header {
+  text-align: center;
+  background: hsl(0, 63%, 70%);
+}
+
+.Header > h2 {
+  padding: 1rem;
+}
+
+.Header > p {
+  padding: 5px;
+  margin-bottom: 1rem;
+}
