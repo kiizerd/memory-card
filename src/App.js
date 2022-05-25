@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import Header from './components/Header.js';
 import Score from './components/Score.js';
 import CardContainer from './components/CardContainer.js';
@@ -30,6 +29,10 @@ function App() {
 
   const incrementScore = () => {
     if (current + 1 >= high) setHigh(current + 1);
+    if ((current + 1) % 14 === 0) { 
+      setCards(cardFactory(14));
+      setClicked([])
+    }
     setCurrent(current + 1);
   };
 
