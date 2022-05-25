@@ -37,7 +37,6 @@ function App() {
   };
 
   const cardClicked = (card) => {
-    console.log(card)
     setClicked((oldClicked) => {
       if (isClickedCardUnique(card)) {
         incrementScore()
