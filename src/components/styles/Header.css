@@ -1,6 +1,6 @@
 .Header {
   text-align: center;
-  background: hsl(0, 63%, 70%);
+  background: hsl(0, 63%, 67%);
 }
 
 .Header > h2 {
@@ -10,4 +10,8 @@
 .Header > p {
   padding: 5px;
   margin-bottom: 1rem;
+}
+
+.Header > hr {
+  color: white
 }
